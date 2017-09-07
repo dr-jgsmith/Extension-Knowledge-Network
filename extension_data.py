@@ -32,7 +32,7 @@ for i in link_data:
     d1.append(i[1])
     dset = sorted(set(d1))
 
-#Due to limitations of the current code, we need to clean extra forward slashes appended to the link.
+#Due to limitations of the current code in the HtmlMapper class, we need to clean extra forward slashes appended to the link.
 clean_links = []
 for i in dset:
     a = list(i)
